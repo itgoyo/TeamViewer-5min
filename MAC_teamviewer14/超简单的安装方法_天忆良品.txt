@@ -1,0 +1,8 @@
+1.复制TeamViewer-id-changer.py，放到MAC的下载这个目录（downloads）。
+2.完全退出teamviewer,
+3.打开terminal(程序里搜索terminal即会显示,也叫终端)，复制sudo python Downloads/TeamViewer-id-changer.py，并粘贴，后回车键
+4.出现需要输入开机密码（密码是看不见，没有任何显示的），按回车键，出现ctrl+c的提示后，再按确定
+4.重启动电脑，打开teamviewer进行测试.
+5.已经可以用了，为了防止商家补丁，请打开teamviewer后点击选项后，点击高级，里面关闭自动更新软件
+
+如日后再次出现限制，请照上面步骤，重复操作即可。

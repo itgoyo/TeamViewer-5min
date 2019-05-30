@@ -1,6 +1,7 @@
 #!/usr/bin/env python 
-
 #coding:utf-8
+
+from __future__ import print_function
 import sys
 import os
 import glob
@@ -85,7 +86,7 @@ for file in TMBINARYES:
         pass
     else:
         print("File not found: " + file)
-        print ("Install TeamViewer correctly")
+        print("Install TeamViewer correctly")
         sys.exit();
 
 # Patch files
@@ -113,12 +114,12 @@ for file in TMBINARYES:
         try:
             idpatch(file,RANDOMPLATFORM,RANDOMSERIAL)
         except:
-            print "Error: can not patch file " + file
-            print "Wrong version?"
+            print("Error: can not patch file " + file)
+            print("Wrong version?")
             sys.exit();
 
-print "PlatformDevice: " + RANDOMPLATFORM
-print "PlatformSerial: " + RANDOMSERIAL
+print("PlatformDevice: " + RANDOMPLATFORM)
+print("PlatformSerial: " + RANDOMSERIAL)
 
 print('''
 ID changed sucessfully.
